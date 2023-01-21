@@ -1,0 +1,29 @@
+.klient {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    fill: var(--socset-color);
+}
+
+
+.klient__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc((100% - 5 * 30px) / 6);
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--socset-color);
+    fill:var(--socset-color) ;
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{fill: var(--focus-color);
+    border: 1px solid var(--focus-color);
+
+}
+}
+
+

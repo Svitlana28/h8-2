@@ -1,0 +1,86 @@
+.header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.artik {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.artik:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+
+
+
+.robotu-link{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+
+}
+.robotu-link >.item{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.img link{
+    padding:215px;
+    top: 262px;}
+
+.element-robotu {
+    padding: 20px;
+    border: 1px solid var(--border-color);
+}
+
+
+.robotu-neim {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--meil-color);
+}
+.robotu-proekt {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--mel-color);
+    margin-top: 4px;
+}
+
+.cart-tumb{
+    position: relative;
+    overflow: hidden;
+}
+.img.link {
+    display: block;
+}
+
+.img.link :hover .fiche-cart,
+.img.link :hover .fiche-cart {
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+
+.fiche-cart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    background-color: var(--mol-color);
+    color: var(--mail-color);
+    font-size: 18px;
+    line-height: 1.55;
+    padding-top: 63px;
+    padding-left: 24px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

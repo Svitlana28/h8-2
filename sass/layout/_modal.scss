@@ -1,0 +1,81 @@
+.backdrop{
+    position: fixed;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.modal {display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: 100%;
+    
+        
+}
+.modal__container{position: relative;
+    width:100%;
+    max-width:528px;;
+    height:100%;
+    max-height: 568px;
+    background:var(--mail-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 40px;
+    overflow-y: auto;
+    }
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+
+.close {
+    position: absolute;
+    left: 93%;
+    top: 2%;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+    &:focus,
+    &:focus {
+        background-color: var(--mail-color);
+        color: var(--focus-color);
+    }
+
+    &:hover,
+    &:hover {
+        background-color: var(--mail-color);
+        color: var(--focus-color);
+    }
+}
+
+.modal__icon {
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    fill: currentColor;
+    &:hover,
+    &:focus {
+        fill: var(--focus-color);
+    }
+}
+
+
+.modal__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}

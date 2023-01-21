@@ -1,0 +1,42 @@
+
+
+.diy{display: flex;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+}
+
+.diy__foto {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+.diy__icon {
+    position: relative;
+    width: 370px;
+    height: 294px;
+    overflow: hidden;
+}
+
+.diy__overley{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+width: 370px;;
+height: 70px;
+bottom: 0;
+background-color: rgba(47,48, 58, 0.8);
+
+}
+.diy__title{
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--mail-color);
+
+}
+
