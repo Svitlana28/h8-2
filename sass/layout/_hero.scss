@@ -1,15 +1,67 @@
-.hero {
-    background-color: var(--becgraud-color);
-        background-image:
-            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/img-18.jpg);
+//.hero {
+  //  background-color: var(--becgraud-color);
+      //  background-image:
+       //     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+       //     url(../images/img-18.jpg);
+       // background-repeat: no-repeat;
+       // background-position: center;
+       // background-size: cover;
+       // padding-top: 200px;
+       // padding-bottom: 200px;
+   // }
+
+    .hero {
+        padding-top: 118px;
+        padding-bottom: 118px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--accent-background-color);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
-    
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(../images/fon-img-1.jpg:);
+      
+        @include retina-bgi {
+          background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../images/fon-img-1.jpg');
+        }
+        
+      
+          @include retina-bgi {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+              url('../images/fon-img-1.jpg');
+          }
+        }
+        @include media-breakpoint(767px) {
+          background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../images/fon-img-2.jpg');
+      
+          @include retina-bgi {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+              url('../images/fon-img-2.jpg');
+          }
+        }
+      
+        @include media-breakpoint(1199px) {
+          height: 600px;
+          background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url('../images/img-18.jpg');
+      
+          @include retina-bgi {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+              url('../images/img-18.jpg');
+          }
+        }
+        @include media-breakpoint(1199px) {
+          padding-top: 200px;
+          padding-bottom: 200px;
+          max-width: 1600px;
+        }
+      
+
+
     .hero__title {
     font-weight: 900;
     font-size: 44px;

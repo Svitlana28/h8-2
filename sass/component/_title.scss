@@ -5,6 +5,9 @@
     line-height: 16px;
     color: var(--meil-color);
     margin-bottom: 10px;
+    @include media-breakpoint(768px) {
+        text-align: start;
+      }
 }
 .title-big{
     font-weight: 700;

@@ -20,10 +20,15 @@
         <div class="container heder-container">
             <nav class="heder link">
                 <a class="logo link" href="#">Web<span class="accent">Studio</span></a>
+                <button class="menu-button header__menu-button js-open-menu" type="button">
+                    <svg class="menu-button__icon" width="40" height="40"></svg><use href="./images/icons.svg#menu"></use></svg>
+                  </button>
+          
                 <ul class="heder aktiv link">
                     <li class="navigacia st"><a class=" accent current link" href="#">Студія</a></li>
                     <li class="navigacia port "><a class="accent link" href="./portfolio.html">Портфоліо</a></li>
                     <li class="navigacia  kont"><a class="accent link" href="#">Контакти</a></li>
+                    
                 </ul>
                 </nav>
                 <ul class="heder aktiv link">
@@ -49,7 +54,7 @@
         <h2 class="visually-hidden">-----наші переваги------</h2>
         <div class="container">
             <ul class="detel">
-                <li>
+                <li class="detel__item">
                     <div class="detel__box">
                     <svg  width="65.32" height="70">
                         <use  href="./images/icons.svg#icon-antenna-1-2-1"></use>
@@ -59,7 +64,7 @@
                         позиції.
                     </p>
                 </li> 
-                <li>
+                <li class="detel__item">
                     <div class="detel__box">
                     <svg width="65.32" height="70">
                         <use  href="./images/icons.svg#icon-clock-1-3"></use>
@@ -69,7 +74,7 @@
 
                     </p>
                 </li> 
-                 <li>
+                 <li class="detel__item">
                     <div class="detel__box">
                         <svg  width="70" height="53.69">
                     <use  href="./images/icons.svg#icon-diagram-1-1-1"></use>
@@ -77,7 +82,7 @@
                     <h3 class="title">ПЛАНУВАННЯ</h3>
                     <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li>
+                <li class="detel__item"> 
                     <div class="detel__box">
                         <svg  width="54.83" height="60.66">
                     <use  href="./images/icons.svg#icon-kosmonavt"></use>
@@ -235,9 +240,9 @@
             </section>       
 </main>
 <footer class="footer">
-    <div class="container footer-cont"> 
-<div>
-        <a class="web link" href="#">Web<span class="accent-footer">Studio</span></a>
+    <div class="container footer__contakt">
+        <div class="footer__adress">
+        <a class="web link" href="#">Web<span class="accent-footer">Studio</span></a></div>
         <address class="adress">
             <ul>
                 <li class="mol"><a class="maps link"
@@ -260,17 +265,17 @@
                             <svg class="socset icon" with="20" height="20">
                                 <use href="./images/icons.svg#icon-tviter"></use>
                             </svg></a></li>
-                    <li class="kart"><a class="footer-links" href="">
+                    <li class="kart"><a class="footer-links" href="#">
                             <svg class="socset icon " with="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook-1-2"></use>
                             </svg></a></li>
                     <li class="kart">
-                        <a class="footer-links" href="">
+                        <a class="footer-links" href="#">
                             <svg class="socset icon" with="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg></a></li>
-                </ul></div>
-                
+                </ul></div></div>
+                d
                 <form class="form-footer" action="">
                 <p class="rozsuska">Підпишіться на розсилку</p>
                 <div class="form-aktiv-email">

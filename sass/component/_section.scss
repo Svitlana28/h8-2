@@ -1,7 +1,15 @@
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+//.section {
+  //  padding-top: 94px;
+   // padding-bottom: 94px;
+
 .section nov{ padding-bottom: 0;}
 
 .section-novpading{ padding-top: 95px;}
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @include media-breakpoint(1199px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
